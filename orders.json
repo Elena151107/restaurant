@@ -1,0 +1,37 @@
+[
+    {
+        "order_id": 1,
+        "user": "иван иванов",
+        "items": [
+            {
+                "dish_id": 1,
+                "quantity": 2
+            },
+            {
+                "dish_id": 2,
+                "quantity": 1
+            },
+            {
+                "dish_id": 1,
+                "quantity": 2
+            },
+            {
+                "dish_id": 1,
+                "quantity": 2
+            },
+            {
+                "dish_id": 1,
+                "quantity": 2
+            },
+            {
+                "dish_id": 1,
+                "quantity": 2
+            },
+            {
+                "dish_id": 1,
+                "quantity": 2
+            }
+        ],
+        "status": " в процессе"
+    }
+]

@@ -1,0 +1,125 @@
+{
+    "dishes": [
+        {
+            "name": "Margherita Pizza",
+            "price": 10.99,
+            "description": "Classic pizza with tomato sauce, mozzarella, and fresh basil."
+        },
+        {
+            "name": "Caesar Salad",
+            "price": 7.99,
+            "description": "Crisp romaine lettuce, croutons, parmesan cheese, and Caesar dressing."
+        },
+        {
+            "name": "Spaghetti Carbonara",
+            "price": 12.99,
+            "description": "Spaghetti with creamy egg-based sauce, pancetta, and parmesan."
+        }
+    ],
+    "orders": [
+        {
+            "user_id": 1,
+            "items": [
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Caesar Salad",
+                        "price": 7.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Caesar Salad",
+                        "price": 7.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Spaghetti Carbonara",
+                        "price": 12.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Caesar Salad",
+                        "price": 7.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Margherita Pizza",
+                        "price": 10.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Caesar Salad",
+                        "price": 7.99
+                    },
+                    "quantity": 1
+                },
+                {
+                    "dish": {
+                        "name": "Spaghetti Carbonara",
+                        "price": 12.99
+                    },
+                    "quantity": 2
+                }
+            ],
+            "status": "in progress"
+        }
+    ]
+}
