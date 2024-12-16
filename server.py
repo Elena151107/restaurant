@@ -66,7 +66,7 @@ class RestaurantHandler(BaseHTTPRequestHandler):
                     for item in post_data['items']:
                         existing_item = next((i for i in order['items'] if i['dish'] == item['dish']['name']), None)
                         if existing_item:
-                            existing_item['quantuty'] += item['quantity']
+                            existing_item['quantuty'] = max(existing_item['quantuty'], item['quantity'])
                         else:
                             order['items'].append(item)
             else:
