@@ -64,7 +64,7 @@ class RestaurantHandler(BaseHTTPRequestHandler):
             if order:
                 if 'items' in post_data:
                     for item in post_data['items']:
-                        existing_item = next((i for i in order['items'] if i['dish'] == item['dish']['name']), None)
+                        existing_item = next((i for i in order['items'] if i['dish']['name'] == item['dish']['name']), None)
                         if existing_item:
                             existing_item['quantuty'] = max(existing_item['quantuty'], item['quantity'])
                         else:
